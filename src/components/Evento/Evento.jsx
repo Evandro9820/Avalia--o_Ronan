@@ -9,7 +9,7 @@ function Evento() {
       <header>
         <h2>O Evento</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque consequuntur voluptatibus saepe assumenda quo, esse autem. Dolore harum aliquid cum ipsam laudantium velit amet adipisci iste, ipsa est perferendis!
+          Evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,evento,
         </p>
       </header>
 
@@ -23,25 +23,25 @@ function Evento() {
             <li className="item">
               <img src={check} alt="check box marcado" />
               <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem asperiores odit minus.
+              evento,evento,evento,evento,evento,
               </span>
             </li>
             <li className="item">
               <img src={check} alt="check box marcado" />
               <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem asperiores odit minus.
+              evento,evento,evento,evento,evento,
               </span>
             </li>
             <li className="item">
               <img src={check} alt="check box marcado" />
               <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem asperiores odit minus.
+              evento,evento,evento,evento,evento,
               </span>
             </li>
             <li className="item">
               <img src={check} alt="check box marcado" />
               <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem asperiores odit minus.
+              evento,evento,evento,evento,evento,
               </span>
             </li>
           </ul>
