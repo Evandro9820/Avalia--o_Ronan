@@ -2,6 +2,7 @@ import "./Oficinas.css";
 import image from "../../assets/images/image.svg"
 import setaDireita from "../../assets/icons/setadireitaAlt.svg"
 import setaEsquerda from "../../assets/icons/setaesquerdaAlt.svg"
+import Card from "../../components/Cards/Card.jsx"
 function Oficinas() {
   return (
     <div id="palestrantes" className="oficinaContainer">
@@ -15,23 +16,17 @@ function Oficinas() {
           </button>
             
           
-            <div id="conteudo"className="conteudo">
-              <img src={image} alt="Imagem" />
-              <div>
-                <header>Como esqueçer a Morena</header>
-                <p>Não tem como, tudo o que restou foi apenas a solidão</p>
-                <span>Ler mais </span>
-              </div>
-            </div>
+          <Card
+          image={image}
+          titulo="Prova do Ronan"
+          conteudo="Eu to usando Props ebaaa, agora eu ganho nota ksskksksk, css é ruim"
+          />
     
-            <div className="conteudo">
-              <img src={image} alt="Imagem" />
-              <div>
-                <header>Como comprar um monza</header>
-                <p>Como que alinha isso, que locura meu deus </p>
-                <span>Ler mais </span>
-              </div>
-            </div>
+        <Card
+          image={image}
+          titulo="Como esqueçer a Morena"
+          conteudo="Não tem como, tudo o que restou foi apenas a solidão"
+          />
            
             <button >
              <img src={setaDireita} alt="" />

@@ -1,5 +1,6 @@
 import image from "../../assets/images/image.svg"
 import "./palestrantes.css"
+import Card from "../../components/Cards/Card.jsx"
 
 function Palestrantes(){
     return (
@@ -9,32 +10,25 @@ function Palestrantes(){
           </header>
     
           <section className="palestrantesConteudo">
-            <div className="conteudo">
-              <img src={image} alt="Imagem" />
-              <div>
-                <header>Humans are much more smarter than Ai</header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos natus temporibus hic.</p>
-                <span>Lear more</span>
-              </div>
-            </div>
+          <Card
+          image={image}
+          titulo="Como esqueçer a Morena"
+          conteudo="Não tem como, tudo o que restou foi apenas a solidão"
+          />
+  
     
-            <div className="conteudo">
-              <img src={image} alt="Imagem" />
-              <div>
-                <header>Humans are much more smarter than Ai</header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos natus temporibus hic.</p>
-                <span>Lear more</span>
-              </div>
-            </div>
-    
-            <div className="conteudo">
-              <img src={image} alt="Imagem" />
-              <div>
-                <header>Humans are much more smarter than Ai</header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quos natus temporibus hic.</p>
-                <span>Lear more</span>
-              </div>
-            </div>
+        <Card
+          image={image}
+          titulo="Como esqueçer a Morena"
+          conteudo="Não tem como, tudo o que restou foi apenas a solidão"
+          />
+          
+          <Card
+          image={image}
+          titulo="Como esqueçer a Morena"
+          conteudo="Não tem como, tudo o que restou foi apenas a solidão"
+          />
+          
           </section>
     
           <button>
