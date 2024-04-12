@@ -8,10 +8,7 @@ import Oficinas from './components/Oficinaas/oficinas.jsx';
 import Cronograma from './components/Cronograma/conograma.jsx';
 import Inscricoes from './components/Inscricoes/inscricoes.jsx';
 import Footer from './components/Footer/footer.jsx';
-function App() {
- 
-
-  return (
+const App = () => (
     <main className='mainContainer'>
         <Header />
         <Inicio />
@@ -21,9 +18,7 @@ function App() {
         <Cronograma />
         <Inscricoes />
         <Footer />
-
     </main>
-    )
-}
+);
 
 export default App

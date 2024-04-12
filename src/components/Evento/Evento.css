@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100dvh;
+    min-height: 100vh;
     padding: 5% 10%;
     gap: 5rem; 
-    background-color: var(--white);
+    background-color: var(--branco);
 }
 
 .eventoContainer header {
@@ -22,14 +22,14 @@
 }
 
 .eventoContainer > header h2 {
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
+    font-size: var(--fonte-tamanho-h2);
+    font-weight: var(--fonte-semi-negrito);
     text-transform: uppercase;
 }
 
 .eventoContainer > header p {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-normal);
+    font-size: var(--fonte-tamanho-normal);
+    font-weight: var(--fonte-normal);
 }
 
 .eventoConteudo {
@@ -75,10 +75,10 @@
 
 .eventoConteudo > div a {
     text-align: center;
-    font-size: var(--h4-font-size);
-    font-weight: var(--font-medium);
-    background-color: var(--black);
-    color: var(--white);
+    font-size: var(--fonte-tamanho-h4);
+    font-weight: var(--fonte-medio);
+    background-color: var(--preto);
+    color: var(--branco);
     padding: 1rem 2rem;
     border-radius: .5rem;
     max-width: 100%;

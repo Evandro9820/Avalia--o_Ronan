@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray);
+    background-color: var(--cinza);
     padding: 32px;
     gap: 32px;
 }
@@ -22,7 +22,7 @@
     max-width: 30%;
     gap: 16px;
     border-radius: 16px;
-    background-color: var(--white);
+    background-color: var(--branco);
 }
 
 .conteudo div {
@@ -42,11 +42,12 @@
 }
 
 .palestrantesContainer button {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--preto);
+    color: var(--branco);
     padding: 1rem 2rem;
     font-weight: 600;
     border: none;
     max-width: 30%;
     align-items: center;
 }
+

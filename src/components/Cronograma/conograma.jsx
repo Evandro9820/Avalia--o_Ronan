@@ -51,3 +51,6 @@ function Conograma(){
     }
 
     export default Conograma;
+
+    /* è o um componente que retornar uma tabela que representa um cronograma 
+       diferentes datas e atividades */

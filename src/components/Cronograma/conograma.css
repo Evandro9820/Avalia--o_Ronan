@@ -8,9 +8,9 @@
   }
   
   .conogramaContainer header {
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
-    align-items: center;
+    font-size: var(--fonte-tamanho-h2);
+    font-weight: var(--fonte-semi-negrito);
+    align-items:'' center;
     text-align: center;
   }
   
@@ -32,17 +32,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--light);
+    background-color: var(--claro);
     padding: 2rem;
   }
   
   .conogramaTable th {
-    background-color: var(--white);
+    background-color: var(--branco);
   }
   
   .conogramaTable th,
   .conogramaTable td {
-    border: 2px solid var(--black);
+    border: 2px solid var(--preto);
     padding: 3rem 1rem; 
     text-align: center;
   }
@@ -50,7 +50,7 @@
   .conogramaTable tr:nth-child(1),
   .conogramaTable tr:nth-child(3),
   .conogramaTable tr td:first-child {
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--fonte-semi-negrito);
   }
   
 

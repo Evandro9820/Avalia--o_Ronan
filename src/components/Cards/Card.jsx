@@ -1,4 +1,4 @@
-import image from "../../assets/images/image.svg"  
+import image from "../../assets/imagens/image.svg"  
 function Cards(props) {
     return (
       <div className="conteudo">
@@ -13,3 +13,5 @@ function Cards(props) {
   }
 
   export default Cards;
+
+  /* Isso daqui é uma props do card para o conteudo  */

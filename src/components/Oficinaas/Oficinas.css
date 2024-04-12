@@ -24,7 +24,7 @@
     max-width: 30%;
     gap: 16px;
     border-radius: 16px;
-    background-color: var(--white);
+    background-color: var(--branco);
 }
 
 .conteudo div {
@@ -51,7 +51,7 @@
 
 .oficinaContainer button  {
     
-    color: var(--white);
+    color: var(--branco);
     padding: 1rem 2rem;
     font-weight: 600;
     border: none;
